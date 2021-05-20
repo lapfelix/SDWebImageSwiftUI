@@ -114,6 +114,7 @@ public final class ImageManager : ObservableObject {
 }
 
 // Completion Handler
+@available(iOS 13.0, OSX 10.15, tvOS 13.0, watchOS 6.0, *)
 extension ImageManager {
     /// Provide the action when image load fails.
     /// - Parameters:
@@ -156,4 +157,5 @@ extension ImageManager {
 }
 
 // Indicator Reportor
+@available(iOS 13.0, OSX 10.15, tvOS 13.0, watchOS 6.0, *)
 extension ImageManager: IndicatorReportable {}
