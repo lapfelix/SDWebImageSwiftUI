@@ -7,7 +7,6 @@
  */
 
 import SwiftUI
-import SDWebImage
 
 #if os(iOS) || os(tvOS) || os(macOS)
 

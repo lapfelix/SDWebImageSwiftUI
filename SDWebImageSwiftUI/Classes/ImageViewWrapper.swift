@@ -7,7 +7,6 @@
 */
 
 import Foundation
-import SDWebImage
 
 #if os(iOS) || os(tvOS) || os(macOS)
 
